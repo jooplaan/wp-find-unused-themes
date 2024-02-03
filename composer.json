@@ -3,6 +3,7 @@
     "description": "Find unused themes on a multisite network.",
     "type": "wp-cli-package",
     "homepage": "https://github.com/jooplaan/wp-find-unused-themes",
+    "version": "1.0",
     "license": "MIT",
     "require": {
         "wp-cli/wp-cli": "^2"
