@@ -1,0 +1,20 @@
+{
+    "name": "jooplaan/wp-find-unused-themes",
+    "description": "Find unused themes on a multisite network.",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/jooplaan/wp-find-unused-themes",
+    "license": "MIT",
+    "authors": [
+        {
+                "name": "Joop Laan",
+                "email": "joop@perky.design",
+                "homepage": "https://jooplaan.com"
+            }
+        ],
+    "require": {
+        "php": ">=5.3.29"
+    },
+    "autoload": {
+        "files": [ "wp-find-unused-themes.php" ]
+    }
+}
