@@ -4,6 +4,12 @@
     "type": "wp-cli-package",
     "homepage": "https://github.com/jooplaan/wp-find-unused-themes",
     "license": "MIT",
+    "require": {
+        "wp-cli/wp-cli": "^2"
+    },
+    "require-dev": {
+        "wp-cli/wp-cli-tests": "^3.0.11"
+    },
     "authors": [
         {
                 "name": "Joop Laan",
@@ -14,6 +20,8 @@
     "require": {
         "php": ">=5.3.29"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "files": [ "wp-find-unused-themes.php" ]
     }
